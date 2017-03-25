@@ -5,7 +5,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * Describe:法律基本信息model
+ * Describe:法律基本信息model类
  * <p>Created by <a href="mailto:abinge2016@163.com">chenbingjie</a> at  2017/3/22 13:55.
  *
  * @Author: chenbingjie
