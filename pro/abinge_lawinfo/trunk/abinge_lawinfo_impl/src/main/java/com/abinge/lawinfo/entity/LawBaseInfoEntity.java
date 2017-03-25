@@ -5,13 +5,13 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * Describe:
- * <p>Created by <a href="mailto:chenbj@yintong.com.com">chenbj</a> at  2017/3/22 13:55.
+ * Describe:法律基本信息model
+ * <p>Created by <a href="mailto:abinge2016@163.com">chenbingjie</a> at  2017/3/22 13:55.
  *
- * @Author: chenbj
+ * @Author: chenbingjie
  * @Version: $Id$
  * @Since: 1.0.0-SNAPSHOT
- * @Company: www.lianlianpay.com
+ * @Company: www.abinge.com
  */
 @Entity
 @Table(name = "law_base_info")
