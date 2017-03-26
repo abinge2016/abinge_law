@@ -1,6 +1,5 @@
 package com.abinge.law.dao;
 
-import com.abinge.law.dao.factory.BaseRepositoryFactoryBean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
@@ -14,6 +13,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
  * @Company: www.abinge.com
  */
 @Configuration
-@EnableJpaRepositories(repositoryFactoryBeanClass = BaseRepositoryFactoryBean.class)
+@EnableJpaRepositories("com.abinge.*")
 public class JpaConfig {
 }

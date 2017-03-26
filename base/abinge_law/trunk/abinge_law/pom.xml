@@ -12,14 +12,13 @@
     <!--统一版本管理-->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
         <spring.data.version>Fowler-SR2</spring.data.version>
         <spring.boot.version>1.5.2.RELEASE</spring.boot.version>
-
         <google.collections>1.0</google.collections>
-
         <abinge.law.base>1.0.0-SNAPSHOT</abinge.law.base>
         <abinge.lawinfo.api>1.0.0-SNAPSHOT</abinge.lawinfo.api>
-
+        <mysql.connector.version>5.1.41</mysql.connector.version>
     </properties>
 
     <dependencyManagement>
@@ -66,6 +65,11 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-data-jpa</artifactId>
                 <version>${spring.boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.connector.version}</version>
             </dependency>
 
             <!--goole-collections-->

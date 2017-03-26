@@ -6,12 +6,11 @@ import com.abinge.lawinfo.entity.LawBaseInfoEntity;
 
 /**
  * Describe:
- * <p>Created by <a href="mailto:chenbj@yintong.com.com">chenbj</a> at  2017/3/22 13:54.
+ * <p>Created by <a href="mailto:chenbingjie@163.com">chenbingjie</a> at  2017/3/22 13:54.
  *
- * @Author: chenbj
- * @Version: $Id$
+ * @Author: chenbingjie
  * @Since: 1.0.0-SNAPSHOT
- * @Company: www.lianlianpay.com
+ * @Company: www.abinge.com
  */
 public interface ILawBaseInfoService {
 
