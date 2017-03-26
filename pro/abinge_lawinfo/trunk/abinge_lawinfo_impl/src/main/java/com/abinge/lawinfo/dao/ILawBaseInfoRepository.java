@@ -1,11 +1,7 @@
 package com.abinge.lawinfo.dao;
 
 import com.abinge.law.dao.BaseRepository;
-import com.abinge.lawinfo.constant.DBConstant;
 import com.abinge.lawinfo.entity.LawBaseInfoEntity;
-
-import javax.persistence.PersistenceUnit;
-import javax.persistence.PersistenceUnits;
 
 /**
  * Describe:
@@ -16,6 +12,5 @@ import javax.persistence.PersistenceUnits;
  * @Since: 1.0.0-SNAPSHOT
  * @Company: www.lianlianpay.com
  */
-@PersistenceUnits({@PersistenceUnit(unitName = DBConstant.MYSQL_PERSISTENCE_UNIT)})
-public interface ILawBaseInfoRepository extends BaseRepository<LawBaseInfoEntity, Long> {
+public interface ILawBaseInfoRepository extends BaseRepository<LawBaseInfoEntity,Long> {
 }
